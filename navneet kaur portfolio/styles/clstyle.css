@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cover-letter {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    color: black;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.back-btn {
+    top: 5%;
+    right: 3%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--color-grey-4);
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.1s ease-in-out;
+}
+
+.theme-btn {
+    top: 5%;
+    right: 3%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--color-grey-4);
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.1s ease-in-out;
+  }
+  .theme-btn:active {
+    transform: translateY(-3px);
+  }
+  .theme-btn i {
+    font-size: 1.4rem;
+    color: var(--color-grey-2);
+    pointer-events: none;
+  }
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .cover-letter {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cover-letter {
+        max-width: 90%;
+        border-radius: 0;
+    }
+}
+
+/* Define styles for transitions */
+.transition-fade {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.transition-fade.active {
+    opacity: 1;
+}
