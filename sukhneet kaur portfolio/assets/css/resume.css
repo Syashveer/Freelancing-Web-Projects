@@ -1,0 +1,29 @@
+.container {
+    padding-left: 4px;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #031852b6;
+    padding-bottom: 2px;
+}
+h1{
+    text-align: center;
+    color: #012277;
+}
+h2{
+    padding-top: 1%;
+    color: #3e6ff4;
+    margin-top: 0;
+}
+h3{
+    padding-top: 2%;
+    color: #6488ec;
+    margin-top: 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 8px;
+}

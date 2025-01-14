@@ -1,0 +1,20 @@
+.content {
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(15, 10, 53);
+  }
+
+  h2 {
+    margin-top: 5%;
+    color: crimso;
+    padding-bottom: 2%;
+  }
+
+  p {
+    padding-left: 4px;
+    padding-right: auto;
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 15px; /* Add more space between paragraphs */
+  }

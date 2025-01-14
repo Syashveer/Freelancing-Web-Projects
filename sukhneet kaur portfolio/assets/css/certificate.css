@@ -1,0 +1,13 @@
+.portfolios .portfolio-item {
+    display: flex;
+    justify-items: space-between;
+    padding-left: 18%;
+    padding-top: 8rem;
+    position: relative;
+    border-radius: 15px;
+  }
+  .portfolios .portfolio-item img {
+    border-radius: 20px;
+    height: 80%;
+    width: 80%;
+  }
